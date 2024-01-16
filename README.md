@@ -1,5 +1,7 @@
 # ericdouglasb.github.io
 
+[läs mer om mig](./about-me.md)
+
 My Github pages site
 
 ![Eric Bränd]()
