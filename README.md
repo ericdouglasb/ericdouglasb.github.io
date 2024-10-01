@@ -18,7 +18,7 @@ My Github pages site
 
 Jag jobbar med att **utveckla en webbapplikation** för att göra pengar.
 
-- 1 år på [Vilunda Gymnasium](https://www.vilundagymnasium.se)
+- 3 år på [Vilunda Gymnasium](https://www.vilundagymnasium.se)
 - 2 år på [Distansakademin](https://www.distansakamdemin.se)
 
 ### Utbildare - (2017-2019)
