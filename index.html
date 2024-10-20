@@ -3,21 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Min Portfolio</title>
-
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Hem</a></li>
+                <li><a href="projects.html">Projekt</a></li>
+                <li><a href="editable.html">Redigerbar sida</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
 
 <body>
-    <h1>Välkommen till min Portfolio</h1>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        img {
+            border-radius: 50%;
+            width: 250px;
+            height: 450px;
+        }
+        .profile-section, .skills-section, .projects-section {
+            margin-bottom: 30px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Min Portfolio</h1>
 
-    <img src="Eric linkedin.jpg" alt="Profil bild" width="260" height="563">
-    
-    
+    <!-- 1. Lägga till en bild på dig själv -->
+    <div class="profile-section">
+        <img src="Eric linkedin.jpg" alt="Bild på mig själv">
 
-    <p>klicka här för att komma till min linkedin. <a href="www.linkedin.com/in/eric-bränd-a89aa62a0">ses där!</a>.</p>
+        <!-- 2. Kort beskrivning om dig själv -->
+        <p>Hej! Jag heter Eric Bränd och jag är en passionerad utvecklare med erfarenhet inom Cloudutveckling. Jag gillar att skapa effektiva och estetiskt tilltalande lösningar för problem inom både front-end och back-end utveckling.</p>
+    </div>
 
+    <!-- 4. Lista över dina färdigheter -->
+    <div class="skills-section">
+        <h2>Färdigheter</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Java</li>
+            <li>SQL</li>
+            <li>Git & GitHub</li>
+        </ul>
+    </div>
 
+    <!-- 5. Lista över dina projekt -->
+    <div class="projects-section">
+        <h2>Projekt</h2>
+        <ul>
+            <li>Portfolio hemsida - En hemsida för att visa upp mina projekt och färdigheter.</li>
+            <li>Databashantering.</li>
+            <li>En enkel springboot applikation.</li>
+        </ul>
+        <p>Du kan hitta alla mina projekt på <a href="https://github.com/ericdouglasb?tab=repositories" target="_blank">mitt GitHub-repo</a>.</p>
+    </div>
+    <!-- 6. Länk till din LinkedIn-profil -->
+    <footer>
+        <p>Lägg till mig på min <a href="https://www.linkedin.com/in/eric-br%C3%A4nd-a89aa62a0/" target="_blank">LinkedIn</a> för att lära dig mer om mig och mina erfarenheter.</p>
+        <p>© 2024 Eric Bränd</p>
+    </footer>
 
-    
 </body>
-</html>
